@@ -1,0 +1,167 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(#6a7b73, #171539) no-repeat;
+  background-size: cover;
+  background-size: 100vw 100vh;
+
+}
+
+h1 {
+  color: #171539;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+  
+}
+
+li {
+  color: #171539;
+  margin: 10 0 0px;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 400;
+  height: 19px;
+  line-height: 1.2;
+  list-style: none;
+  padding: 0;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  background-color: #ffffff6d;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.weather-icon {
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+
+}
+
+.temperature {
+  color: #171539;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  color: #171539;
+  top: -34px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.weather-temperature strong {
+  color: #171539;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: #171539;
+  cursor: pointer;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+  color: #bd7877;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+#icon {
+  display: block;
+  position:top;
+  margin: 0;
+}
+
+
+::placeholder {
+  font-weight: 100;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.btn {
+  background-color: #171539;
+  color: #fff;
+  font-size: small;
+  border:#6a7b73;
+  margin:5px 0 5px 0;
+}
+:link {
+  color: #fff;
+
+}
+
+a {
+  color: white;
+}
+
+#search-icon {
+  width: 40px;
+  height: 40px;
+}
+
+#col-6 {
+  font-size: 20px;
+}
+
+.container {
+  width: 700px;
+  
+}
